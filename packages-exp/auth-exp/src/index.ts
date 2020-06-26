@@ -114,3 +114,5 @@ export { reload } from './core/user/reload';
 export async function deleteUser(user: externs.User): Promise<void> {
   return user.delete();
 }
+
+export { ReactNativePersistence } from './core/persistence/react_native';

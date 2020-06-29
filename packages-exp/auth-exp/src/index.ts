@@ -115,4 +115,4 @@ export async function deleteUser(user: externs.User): Promise<void> {
   return user.delete();
 }
 
-export { ReactNativePersistence } from './core/persistence/react_native';
+export { makeReactNativePersistence } from './core/persistence/react_native';
